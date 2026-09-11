@@ -1,0 +1,56 @@
+{
+  "secoes": [
+    {
+      "tipo": "titulo",
+      "texto": "Visão Geral"
+    },
+    {
+      "tipo": "texto",
+      "texto": "Este sistema é responsável por conciliar dados de faturamento e medição entre as áreas envolvidas, evitando divergências manuais e centralizando o processo em uma única fonte de verdade."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Principais Funcionalidades"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Importação automática de termos e medições",
+        "Algoritmo de matching com pontuação de similaridade",
+        "Geração de relatórios em Excel com formatação brasileira",
+        "Dashboard com indicadores de divergência e atraso"
+      ]
+    },
+    {
+      "tipo": "titulo",
+      "texto": "Arquitetura"
+    },
+    {
+      "tipo": "texto",
+      "texto": "O fluxo de dados passa por três camadas principais: importação, processamento de regras de negócio e apresentação."
+    },
+    {
+      "tipo": "diagrama_mermaid",
+      "codigo": "graph TD;\n    A[Importacao de Termos] --> B[Motor de Matching];\n    C[Medicao de Faturamento] --> B;\n    B --> D[Banco de Dados];\n    D --> E[Dashboard de Conciliacao];",
+      "legenda": "Fluxo de dados do sistema de conciliação"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "Capturas de Tela"
+    },
+    {
+      "tipo": "imagem",
+      "caminho": "./imagens/dashboard.png",
+      "legenda": "Dashboard principal do sistema"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "Referências"
+    },
+    {
+      "tipo": "link",
+      "texto": "Repositório do projeto no GitHub",
+      "url": "https://github.com/exemplo/projeto"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "secoes": [
+    {"tipo": "titulo", "texto": "Visão geral"},
+    {"tipo": "texto", "texto": "Documento utilizado na validação automatizada do gerador."},
+    {"tipo": "subtitulo", "texto": "Escopo"},
+    {"tipo": "secao_nivel_3", "texto": "Critérios"},
+    {"tipo": "link", "texto": "Documentação de referência", "url": "https://example.com/referencia"},
+    {"tipo": "bibliografia", "itens": [{"titulo": "Manual técnico", "autor": "Equipe de Arquitetura", "url": "https://example.com/manual", "data_acesso": "18/08/2026"}]}
+  ]
+}
